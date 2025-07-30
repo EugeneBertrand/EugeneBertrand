@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Eugene Bertrand!
 
-I’m a Computer Engineering student at the University of California, Santa Cruz, with a deep passion for building intelligent, adaptive systems that bridge modern software with real-world impact. I specialize in applying computational thinking to diverse fields like artificial intelligence, edge computing, and full-stack development.
+I’m a Data Science student at University of California, San Diego, with a deep passion for building intelligent, adaptive systems that bridge modern software with real-world impact. I specialize in applying computational thinking to diverse fields like artificial intelligence, edge computing, and full-stack development.
 
 My academic journey blends rigorous coursework with hands-on research—ranging from developing power-aware schedulers for edge systems to creating AI models that analyze medical compounds and predict NFL player performance. Whether I'm building scalable web apps or anomaly detectors for e-commerce fraud, I approach every challenge with structure, curiosity, and a strong commitment to solving real problems.
 
