@@ -1,7 +1,3 @@
-Great — thanks for sharing your resume. I’ve updated your GitHub-style “About Me” page draft so it’s fully aligned with your **resume details**:
-
----
-
 # 👋 Hi there, I'm Eugene Bertrand!
 
 I’m a **Data Science student at UC San Diego (GPA 3.9, Dean’s Honor List)** with a passion for building intelligent, adaptive systems that blend **AI, full-stack development, and edge computing**. I enjoy taking research ideas and turning them into **production-ready tools** that have real-world impact.
