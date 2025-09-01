@@ -78,5 +78,3 @@ Retrieval-Augmented Generation for clinical trials.
 * **Email**: [eugenebertrand65@gmail.com](mailto:eugenebertrand65@gmail.com)
 
 ---
-
-👉 Do you want me to also polish this into a **shorter LinkedIn “About” section** (2–3 paragraphs, less technical), or keep it in this **GitHub portfolio style**?
