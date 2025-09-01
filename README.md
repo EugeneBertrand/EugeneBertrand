@@ -1,84 +1,86 @@
+Great — thanks for sharing your resume. I’ve updated your GitHub-style “About Me” page draft so it’s fully aligned with your **resume details**:
+
+---
+
 # 👋 Hi there, I'm Eugene Bertrand!
 
-I’m a Data Science student at University of California, San Diego, with a deep passion for building intelligent, adaptive systems that bridge modern software with real-world impact. I specialize in applying computational thinking to diverse fields like artificial intelligence, edge computing, and full-stack development.
+I’m a **Data Science student at UC San Diego (GPA 3.9, Dean’s Honor List)** with a passion for building intelligent, adaptive systems that blend **AI, full-stack development, and edge computing**. I enjoy taking research ideas and turning them into **production-ready tools** that have real-world impact.
 
-My academic journey blends rigorous coursework with hands-on research—ranging from developing power-aware schedulers for edge systems to creating AI models that analyze medical compounds and predict NFL player performance. Whether I'm building scalable web apps or anomaly detectors for e-commerce fraud, I approach every challenge with structure, curiosity, and a strong commitment to solving real problems.
+My experience spans across **software engineering internships, AI/ML research, and independent projects**. Whether I’m scaling recommendation systems, fine-tuning NLP models, or building anomaly detectors, I bring a structured, curious, and hands-on approach to solving problems.
 
 ---
 
 ## 🧠 What I'm Working On
 
-- ⚙️ Power-aware scheduling tools for edge servers using Python multiprocessing  
-- 🔍 Logic-based AI reasoning systems using SWI-Prolog and Python  
-- 🏈 NFL player production forecasting using machine learning & data pipelines  
-- 💻 Full-stack apps with React, Node.js, and REST APIs  
-- 🧬 Predictive AI for molecular compound analysis using PyTorch & NVIDIA BioNemo  
-- 🛒 Anomaly detection systems for e-commerce fraud using unsupervised models  
+* ⚙️ **Campus Collect Internship** – Improving iOS app recommendation accuracy by 35% with TensorFlow\.js + Firebase Functions
+* 🔍 **Logic-based AI reasoning** – Backward-chaining system in SWI-Prolog + Python, 98% correctness across formal test cases
+* 💻 **Full-stack web apps** – React, Node.js, Express, Supabase, MongoDB
+* 🧬 **RAG-powered clinical trial analysis** – Custom NLP models + Groq API for real-time medical insights
+* 🏈 **Sports analytics pipelines** – RandomForest regressors forecasting NFL player production
+* 🛒 **E-commerce fraud detection** – Anomaly models with real-time Streamlit dashboards
 
 ---
 
 ## 📜 Certifications
 
-- 📘 **Foundations of Project Management** – *Google*  
-- 🧑‍🏫 **CS50: Web Programming with Python and JavaScript** – *Harvard University*  
-- 🧠 **Machine Learning Foundations for Product Managers** – *Duke University (Jun 2025)*  
-  <sub>Focus: Software product strategy, Python ML workflows, stakeholder alignment</sub>
+* 📘 **Foundations of Project Management** – *Google*
+* 🧑‍🏫 **CS50: Web Programming with Python and JavaScript** – *Harvard University*
+* 🧠 **Machine Learning Foundations for Product Managers** – *Duke University (Jun 2025)*
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏈 [PlayPredict](#) — *Python, scikit-learn, Node.js, React, Express*  
-An end-to-end platform that forecasts NFL player performance per game.  
-- Built a TypeScript/Express REST API that ingests 400K+ rows of 2024 NFL play data and serves results in <100 ms  
-- Trained RandomForest regressors (QB, RB, WR, TE) in Python, serialized models with Joblib, and integrated into the backend  
-- Designed a responsive React frontend with dynamic input handling and real-time rendering  
-- Added utilities for CSV repair and scripted automatic model retraining to maintain forecast accuracy  
+### 🏈 [PlayPredict](https://playpredictapp.vercel.app/) — *Python, scikit-learn, Node.js, React, Express*
 
-### 🛒 [AutoFlag](#) — *Python, scikit-learn, Streamlit*  
-A system to detect abusive e-commerce return behavior using anomaly detection.  
-- Generated synthetic/real datasets with multiple fraud archetypes via a custom CLI tool  
-- Engineered 15 behavioral features and implemented Isolation Forest, DBSCAN, and statistical scoring models  
-- Built a Streamlit dashboard with <150 ms load time, adjustable filters, and visual analytics on customer trends and fraud heatmaps  
+Forecasts NFL player yardage/TD production.
 
-### 🧠 Serene AI — *Python, PyTorch, NVIDIA BioNemo*  
-An AI model predicting compound efficacy for neurological treatments.  
-- Visualizes molecules via SMILES strings using RDKit  
-- Uses BioNemo for pretrained transformer-based chemical analysis  
-- Predicts compound effectiveness with confidence scores  
+* REST API ingests **400K+ plays**, normalized & cached for <100 ms response
+* Position-specific **RandomForest models** serialized + integrated into Node backend
+* Responsive React frontend with dynamic inputs & real-time rendering
 
-### ⚙️ Edge CPU Forecaster — *Python*  
-A simulation tool for adaptive workload scheduling on edge systems.  
-- Implements slope-based analysis for CPU usage forecasting  
-- Achieved up to **2.3×** throughput speedup and **18%** power savings on benchmarks  
+### 🛒 [AutoFlag](https://autoflag.streamlit.app/) — *Python, scikit-learn, Streamlit*
 
-### 🔎 GitViewer — *React, Node.js, GitHub API*  
-A full-stack web app that fetches and displays GitHub user profiles by username.  
-- Backend: Express routes integrated with GitHub REST API  
-- Frontend: React UI with dynamic rendering and error handling  
-- Skills: REST APIs, UX responsiveness, frontend/backend coordination  
+Flags abusive e-commerce return behavior.
+
+* Custom **data generator** with configurable fraud ratios & archetypes
+* 15 engineered behavioral features + anomaly detection (Isolation Forest, DBSCAN)
+* Streamlit dashboard with **<150 ms load time**, interactive filters, and heatmaps
+
+### 🧬 [HealthMiner](https://healthminer.streamlit.app/) — *Python, FastAPI, Streamlit, Groq API*
+
+Retrieval-Augmented Generation for clinical trials.
+
+* Custom NLP models fine-tuned on **10,000+ trial docs**, **92% F1-score**
+* Real-time semantic search with vector embeddings + cosine similarity
+* Optimized pipeline indexes 100-page PDFs in <30s, **99.9% uptime** in prod
 
 ---
 
 ## 🛠️ Technical Stack
 
-**Languages:** Python, C, C++, Java, JavaScript, TypeScript, Rust, SQL, HTML, CSS, Assembly  
-**Frameworks & Tools:** Node.js, React, Express, PyTorch, Pandas, scikit-learn, Streamlit, SWI-Prolog, RDKit  
-**Infrastructure & Deployment:** Docker, Kubernetes, Git, GitHub  
-**Focus Areas:** Edge Computing, AI/ML, Full-Stack Development, Logic Programming, Anomaly Detection  
+**Languages:** Python, Java, JavaScript, TypeScript, SQL, C, C++, Rust, HTML, CSS
+**Frameworks & Tools:** React, Node.js, Express, FastAPI, Docker, Firebase, MongoDB, Supabase, Streamlit
+**AI/ML:** scikit-learn, Pandas, NumPy, TensorFlow\.js, Sentence-Transformers
+**Other:** Git, Linux, Xcode, Retrieval-Augmented Generation, Firestore
 
 ---
 
 ## 🎯 Goals
 
-- Build scalable systems for real-world AI and data applications  
-- Contribute to open-source tools for scheduling, forecasting, and inference  
-- Continuously improve my technical fluency and system design thinking  
-- Apply project management principles to engineering workstreams and team collaboration  
+* Build scalable, intelligent systems at the **intersection of AI and full-stack engineering**
+* Contribute to **open-source tools** in reasoning systems, anomaly detection, and RAG
+* Apply **research insights** into production-ready, real-world applications
+* Grow as a developer through **collaboration, mentorship, and system design**
 
 ---
 
 ## 📬 Let’s Connect
 
-- **LinkedIn**: [linkedin.com/in/eugene-bertrand-50766722b](https://www.linkedin.com/in/eugene-bertrand-50766722b)  
-- **Email**: eugenebertrand65@gmail.com
+* **LinkedIn**: [linkedin.com/in/eugene-bertrand-50766722b](https://www.linkedin.com/in/eugene-bertrand-50766722b)
+* **GitHub**: [github.com/EugeneBertrand](https://github.com/EugeneBertrand)
+* **Email**: [eugenebertrand65@gmail.com](mailto:eugenebertrand65@gmail.com)
+
+---
+
+👉 Do you want me to also polish this into a **shorter LinkedIn “About” section** (2–3 paragraphs, less technical), or keep it in this **GitHub portfolio style**?
